@@ -42,7 +42,7 @@ async function createMarkdownFile(coin) {
     console.log(coin);
     const today = new Date().toISOString().split('T')[0]; // Format: YYYY-MM-DD
     const folderPath = path.join('trending', today, coin.name.toLowerCase().replace(/\s+/g, '-'));
-    const fileName = `${coin.name.toLowerCase().replace(/\s+/g, '-')}.md`;
+    const fileName = `README.md`;
     const filePath = path.join(folderPath, fileName);
 
     const content = `---
