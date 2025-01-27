@@ -3,7 +3,7 @@ title: Wrapped XRP
 symbol: WXRP
 categories: Wrapped-Tokens, Exchange-Issued Asset Tokens
 contract_address: undefined
-updated_at: 2025-01-27T14:35:11.657Z
+updated_at: 2025-01-27T14:49:07.653Z
 ---
 
 # Wrapped XRP (WXRP)

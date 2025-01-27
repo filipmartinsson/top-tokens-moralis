@@ -3,7 +3,7 @@ title: ARC
 symbol: ARC
 categories: Platform-Based Utility Tokens
 contract_address: undefined
-updated_at: 2025-01-27T14:35:11.526Z
+updated_at: 2025-01-27T14:49:07.475Z
 ---
 
 # ARC (ARC)

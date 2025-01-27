@@ -3,7 +3,7 @@ title: Ampleforth
 symbol: AMPL
 categories: Platform-Based Utility Tokens, Rebase Tokens
 contract_address: undefined
-updated_at: 2025-01-27T14:35:11.940Z
+updated_at: 2025-01-27T14:49:07.942Z
 ---
 
 # Ampleforth (AMPL)

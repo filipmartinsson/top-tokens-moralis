@@ -3,7 +3,7 @@ title: Nexo
 symbol: NEXO
 categories: Lending/Borrowing, Platform-Based Utility Tokens
 contract_address: undefined
-updated_at: 2025-01-27T14:35:11.765Z
+updated_at: 2025-01-27T14:49:07.763Z
 ---
 
 # Nexo (NEXO)

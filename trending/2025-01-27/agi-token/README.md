@@ -3,7 +3,7 @@ title: AGI Token
 symbol: AGI
 categories: Platform-Based Utility Tokens
 contract_address: undefined
-updated_at: 2025-01-27T14:35:12.382Z
+updated_at: 2025-01-27T14:49:08.357Z
 ---
 
 # AGI Token (AGI)

@@ -3,7 +3,7 @@ title: Telcoin
 symbol: TEL
 categories: Platform-Based Utility Tokens
 contract_address: undefined
-updated_at: 2025-01-27T14:35:11.661Z
+updated_at: 2025-01-27T14:49:08.488Z
 ---
 
 # Telcoin (TEL)
@@ -13,6 +13,6 @@ The [Telcoin token](https://moralis.com/chain/ethereum/token/price/telcoin) is t
 - Price and chart: https://moralis.com/chain/ethereum/token/price/telcoin
 
 ## Market Data
-- Current Price: $0.006065512388141195
+- Current Price: $0.006208241388957966
 - Market Cap: $N/A
-- 24h Volume: $977825.351843891
+- 24h Volume: $1023363.5714315979

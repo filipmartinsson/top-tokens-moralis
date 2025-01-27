@@ -1,18 +1,18 @@
 ---
 title: Dai Stablecoin
 symbol: DAI
-categories: 
+categories: Governance, Stablecoins
 contract_address: undefined
-updated_at: 2025-01-27T14:35:12.426Z
+updated_at: 2025-01-27T14:49:08.545Z
 ---
 
 # Dai Stablecoin (DAI)
-The [Dai Stablecoin token](https://moralis.com/chain/base/token/price/dai-stablecoin-1) is trading live on the base blockchain.
+The [Dai Stablecoin token](https://moralis.com/chain/null/token/price/dai-stablecoin) is trading live on the null blockchain.
 
 ## Links
-- Price and chart: https://moralis.com/chain/base/token/price/dai-stablecoin-1
+- Price and chart: https://moralis.com/chain/null/token/price/dai-stablecoin
 
 ## Market Data
-- Current Price: $1.0000439277020101
+- Current Price: $0.9997312240632412
 - Market Cap: $N/A
-- 24h Volume: $403293.0659465319
+- 24h Volume: $2007329.092143428

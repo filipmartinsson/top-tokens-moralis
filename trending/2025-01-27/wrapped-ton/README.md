@@ -3,7 +3,7 @@ title: Wrapped TON
 symbol: WTON
 categories: Platform-Based Utility Tokens, Layer 2 (L2)
 contract_address: undefined
-updated_at: 2025-01-27T14:35:11.893Z
+updated_at: 2025-01-27T14:49:07.880Z
 ---
 
 # Wrapped TON (WTON)

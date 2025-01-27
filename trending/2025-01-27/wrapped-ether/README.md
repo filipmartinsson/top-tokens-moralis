@@ -1,18 +1,18 @@
 ---
 title: Wrapped Ether
-symbol: WETH.e
+symbol: WETH
 categories: Wrapped-Tokens
 contract_address: undefined
-updated_at: 2025-01-27T14:35:12.045Z
+updated_at: 2025-01-27T14:49:09.148Z
 ---
 
-# Wrapped Ether (WETH.e)
-The [Wrapped Ether token](https://moralis.com/chain/null/token/price/wrapped-ether-1) is trading live on the null blockchain.
+# Wrapped Ether (WETH)
+The [Wrapped Ether token](https://moralis.com/chain/null/token/price/wrapped-ether) is trading live on the null blockchain.
 
 ## Links
-- Price and chart: https://moralis.com/chain/null/token/price/wrapped-ether-1
+- Price and chart: https://moralis.com/chain/null/token/price/wrapped-ether
 
 ## Market Data
-- Current Price: $3123.367769888025
+- Current Price: $3095.1218147660034
 - Market Cap: $N/A
-- 24h Volume: $41349250.830099665
+- 24h Volume: $81160938.59862751

@@ -3,7 +3,7 @@ title: Across Protocol Token
 symbol: ACX
 categories: Platform-Based Utility Tokens, Layer 2 (L2)
 contract_address: undefined
-updated_at: 2025-01-27T14:35:11.664Z
+updated_at: 2025-01-27T14:49:07.658Z
 ---
 
 # Across Protocol Token (ACX)

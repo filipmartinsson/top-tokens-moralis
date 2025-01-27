@@ -3,7 +3,7 @@ title: Dogecoin
 symbol: DOGE
 categories: Meme
 contract_address: undefined
-updated_at: 2025-01-27T14:35:11.964Z
+updated_at: 2025-01-27T14:49:07.528Z
 ---
 
 # Dogecoin (DOGE)
@@ -13,6 +13,6 @@ The [Dogecoin token](https://moralis.com/chain/bsc/token/price/dogecoin) is trad
 - Price and chart: https://moralis.com/chain/bsc/token/price/dogecoin
 
 ## Market Data
-- Current Price: $0.3193999806849694
+- Current Price: $0.32361602278715806
 - Market Cap: $N/A
-- 24h Volume: $796560.2966820261
+- 24h Volume: $807625.6793979761

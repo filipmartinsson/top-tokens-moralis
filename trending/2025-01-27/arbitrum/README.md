@@ -3,7 +3,7 @@ title: Arbitrum
 symbol: ARB
 categories: Layer 1 (L1), Layer 2 (L2), Platform-Based Utility Tokens
 contract_address: undefined
-updated_at: 2025-01-27T14:35:12.034Z
+updated_at: 2025-01-27T14:49:08.014Z
 ---
 
 # Arbitrum (ARB)

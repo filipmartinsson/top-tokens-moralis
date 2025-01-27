@@ -1,18 +1,18 @@
 ---
 title: Uniswap
 symbol: UNI
-categories: 
+categories: Decentralized Finance (DeFi), Decentralized Exchange (DEX), Automated Market Maker (AMM)
 contract_address: undefined
-updated_at: 2025-01-27T14:35:11.980Z
+updated_at: 2025-01-27T14:49:10.439Z
 ---
 
 # Uniswap (UNI)
-The [Uniswap token](https://moralis.com/chain/base/token/price/uniswap-2) is trading live on the base blockchain.
+The [Uniswap token](https://moralis.com/chain/arbitrum/token/price/null) is trading live on the arbitrum blockchain.
 
 ## Links
-- Price and chart: https://moralis.com/chain/base/token/price/uniswap-2
+- Price and chart: https://moralis.com/chain/arbitrum/token/price/null
 
 ## Market Data
-- Current Price: $12.122201423917819
+- Current Price: $10.701614871159403
 - Market Cap: $N/A
-- 24h Volume: $132143.722683586
+- 24h Volume: $543561.9865984259

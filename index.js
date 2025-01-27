@@ -41,7 +41,7 @@ async function fetchCoinsFromMoralis() {
 async function createMarkdownFile(coin) {
     console.log(coin);
     const today = new Date().toISOString().split('T')[0]; // Format: YYYY-MM-DD
-    const folderPath = path.join('trending', today, coin.name.toLowerCase().replace(/\s+/g, '-'));
+    const folderPath = path.join('trending', today, coin.uniqueName ? coin.uniqueName : coin.name);
     const fileName = `README.md`;
     const filePath = path.join(folderPath, fileName);
 
@@ -139,22 +139,105 @@ async function pushToGithub(category) {
     }
 }
 
+async function generateMainReadme() {
+    try {
+        // Get all date folders
+        const contentDir = path.join('trending');
+        const dates = await fs.readdir(contentDir);
+        
+        // Sort dates in reverse chronological order
+        dates.sort((a, b) => b.localeCompare(a));
+
+        let readmeContent = `# Moralis Trending Catalog
+
+This repository contains information about various cryptocurrency tokens that has been trending on Moralis, organized by date.
+
+## Available Collections\n\n`;
+
+        // Add links for each date
+        for (const date of dates) {
+            const dateDir = path.join(contentDir, date);
+            const files = await fs.readdir(dateDir);
+            
+            readmeContent += `### ${date}\n\n`;
+            
+            // Sort files alphabetically
+            files.sort((a, b) => a.localeCompare(b));
+            
+            // Add links to each token file
+            for (const file of files) {
+                const tokenName = path.basename(file, '.md');
+                readmeContent += `- [${tokenName}](trending/${date}/${file})\n`;
+            }
+            readmeContent += '\n';
+        }
+
+        // Add footer
+        readmeContent += `\n## Last Updated: ${new Date().toISOString()}`;
+
+        // Write README.md to root directory
+        await fs.writeFile('README.md', readmeContent, 'utf-8');
+        
+        // Push README to GitHub
+        const octokit = new Octokit({ auth: config.GITHUB_TOKEN });
+        const content = Buffer.from(readmeContent).toString('base64');
+
+        try {
+            const existingFile = await octokit.repos.getContent({
+                owner: config.OWNER,
+                repo: config.REPO_NAME,
+                path: 'README.md',
+            });
+
+            await octokit.repos.createOrUpdateFileContents({
+                owner: config.OWNER,
+                repo: config.REPO_NAME,
+                path: 'README.md',
+                message: `Update README.md - ${new Date().toISOString()}`,
+                content: content,
+                sha: existingFile.data.sha,
+            });
+        } catch (error) {
+            if (error.status === 404) {
+                await octokit.repos.createOrUpdateFileContents({
+                    owner: config.OWNER,
+                    repo: config.REPO_NAME,
+                    path: 'README.md',
+                    message: `Add README.md - ${new Date().toISOString()}`,
+                    content: content,
+                });
+            } else {
+                throw error;
+            }
+        }
+
+        console.log('README.md generated and pushed successfully!');
+    } catch (error) {
+        console.error('Error generating README:', error.message);
+    }
+}
+
 async function main() {
     try {
         // Fetch coins from Moralis
-        const coins = await fetchCoinsFromMoralis(config.CATEGORY);
+        // const coins = await fetchCoinsFromMoralis(config.CATEGORY);
         
-        // Create markdown files for each coin
-        for (const coin of coins) {
-            const filePath = await createMarkdownFile(coin, config.CATEGORY);
-            console.log(`Created file: ${filePath}`);
-        }
+        // // Create markdown files for each coin
+        // for (const coin of coins) {
+        //     const filePath = await createMarkdownFile(coin, config.CATEGORY);
+        //     console.log(`Created file: ${filePath}`);
+        // }
 
-        // Push to GitHub
-        //await pushToGithub(config.CATEGORY);
-        //console.log('Successfully pushed to GitHub!');
+        // // Push to GitHub
+        // await pushToGithub(config.CATEGORY);
+        
+        // Generate and push README
+        await generateMainReadme();
+        
+        console.log('All operations completed successfully!');
     } catch (error) {
         console.error('Error in main process:', error.message);
+        console.error(error.stack);
     }
 }
 

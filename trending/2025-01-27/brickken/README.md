@@ -3,7 +3,7 @@ title: Brickken
 symbol: BKN
 categories: Asset-backed Tokens, Real World Assets (RWA), Platform-Based Utility Tokens
 contract_address: undefined
-updated_at: 2025-01-27T14:35:12.017Z
+updated_at: 2025-01-27T14:49:08.003Z
 ---
 
 # Brickken (BKN)

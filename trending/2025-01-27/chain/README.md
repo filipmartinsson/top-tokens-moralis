@@ -1,18 +1,18 @@
 ---
 title: Chain
 symbol: XCN
-categories: 
+categories: Platform-Based Utility Tokens, Decentralized Finance (DeFi)
 contract_address: undefined
-updated_at: 2025-01-27T14:35:12.250Z
+updated_at: 2025-01-27T14:49:08.874Z
 ---
 
 # Chain (XCN)
-The [Chain token](https://moralis.com/chain/bsc/token/price/chain) is trading live on the bsc blockchain.
+The [Chain token](https://moralis.com/chain/ethereum/token/price/chain) is trading live on the ethereum blockchain.
 
 ## Links
-- Price and chart: https://moralis.com/chain/bsc/token/price/chain
+- Price and chart: https://moralis.com/chain/ethereum/token/price/chain
 
 ## Market Data
-- Current Price: $0.03324025665661967
+- Current Price: $0.02818091976116116
 - Market Cap: $N/A
-- 24h Volume: $193725.17181374604
+- 24h Volume: $16026036.499838918

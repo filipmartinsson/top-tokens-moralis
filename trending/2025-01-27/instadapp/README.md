@@ -1,9 +1,9 @@
 ---
 title: Instadapp
 symbol: INST
-categories: Platform-Based Utility Tokens, Decentralized Finance (DeFi)
+categories: Decentralized Finance (DeFi), Platform-Based Utility Tokens
 contract_address: undefined
-updated_at: 2025-01-27T14:35:12.024Z
+updated_at: 2025-01-27T14:49:09.569Z
 ---
 
 # Instadapp (INST)
@@ -15,4 +15,4 @@ The [Instadapp token](https://moralis.com/chain/ethereum/token/price/instadapp) 
 ## Market Data
 - Current Price: $5.024376449872355
 - Market Cap: $N/A
-- 24h Volume: $1060985.842438312
+- 24h Volume: $1064138.820255257

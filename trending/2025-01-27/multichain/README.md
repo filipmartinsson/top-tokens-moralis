@@ -3,7 +3,7 @@ title: Multichain
 symbol: MULTI
 categories: Platform-Based Utility Tokens, Interoperability
 contract_address: undefined
-updated_at: 2025-01-27T14:35:12.395Z
+updated_at: 2025-01-27T14:49:08.375Z
 ---
 
 # Multichain (MULTI)

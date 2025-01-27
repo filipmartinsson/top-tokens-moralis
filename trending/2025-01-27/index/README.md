@@ -3,7 +3,7 @@ title: Index
 symbol: INDEX
 categories: Governance
 contract_address: undefined
-updated_at: 2025-01-27T14:35:11.758Z
+updated_at: 2025-01-27T14:49:07.751Z
 ---
 
 # Index (INDEX)

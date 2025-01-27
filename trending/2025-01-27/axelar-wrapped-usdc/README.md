@@ -3,7 +3,7 @@ title: Axelar Wrapped USDC
 symbol: axlUSDC
 categories: Interoperability
 contract_address: undefined
-updated_at: 2025-01-27T14:35:12.399Z
+updated_at: 2025-01-27T14:49:10.015Z
 ---
 
 # Axelar Wrapped USDC (axlUSDC)
@@ -13,6 +13,6 @@ The [Axelar Wrapped USDC token](https://moralis.com/chain/polygon/token/price/ax
 - Price and chart: https://moralis.com/chain/polygon/token/price/axelar-wrapped-usdc
 
 ## Market Data
-- Current Price: $0.9998009624727624
+- Current Price: $0.9998277918316598
 - Market Cap: $N/A
-- 24h Volume: $358843.98295543203
+- 24h Volume: $360791.705031356

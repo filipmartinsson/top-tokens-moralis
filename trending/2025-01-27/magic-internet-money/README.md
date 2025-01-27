@@ -1,18 +1,18 @@
 ---
 title: Magic Internet Money
 symbol: MIM
-categories: 
+categories: Lending/Borrowing, Stablecoins
 contract_address: undefined
-updated_at: 2025-01-27T14:35:12.267Z
+updated_at: 2025-01-27T14:49:09.363Z
 ---
 
 # Magic Internet Money (MIM)
-The [Magic Internet Money token](https://moralis.com/chain/null/token/price/magic-internet-money-1) is trading live on the null blockchain.
+The [Magic Internet Money token](https://moralis.com/chain/null/token/price/magic-internet-money) is trading live on the null blockchain.
 
 ## Links
-- Price and chart: https://moralis.com/chain/null/token/price/magic-internet-money-1
+- Price and chart: https://moralis.com/chain/null/token/price/magic-internet-money
 
 ## Market Data
-- Current Price: $0.9992024487738513
+- Current Price: $1.008423118807402
 - Market Cap: $N/A
-- 24h Volume: $101985.804213382
+- 24h Volume: $133114.75064798899

@@ -3,7 +3,7 @@ title: Tokenize Emblem
 symbol: TKX
 categories: Platform-Based Utility Tokens
 contract_address: undefined
-updated_at: 2025-01-27T14:35:12.368Z
+updated_at: 2025-01-27T14:49:08.361Z
 ---
 
 # Tokenize Emblem (TKX)

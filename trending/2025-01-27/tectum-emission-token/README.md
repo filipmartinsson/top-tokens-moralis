@@ -3,7 +3,7 @@ title: Tectum Emission Token
 symbol: TET
 categories: Platform-Based Utility Tokens, Privacy Coins
 contract_address: undefined
-updated_at: 2025-01-27T14:35:11.602Z
+updated_at: 2025-01-27T14:49:07.561Z
 ---
 
 # Tectum Emission Token (TET)

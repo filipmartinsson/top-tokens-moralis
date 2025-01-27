@@ -3,7 +3,7 @@ title: Wrapped Ampleforth
 symbol: WAMPL
 categories: Platform-Based Utility Tokens, Rebase Tokens
 contract_address: undefined
-updated_at: 2025-01-27T14:35:11.609Z
+updated_at: 2025-01-27T14:49:07.570Z
 ---
 
 # Wrapped Ampleforth (WAMPL)

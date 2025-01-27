@@ -1,18 +1,18 @@
 ---
 title: MANTRA DAO
 symbol: OM
-categories: Decentralized Finance (DeFi), Platform-Based Utility Tokens
+categories: Platform-Based Utility Tokens, Decentralized Finance (DeFi)
 contract_address: undefined
-updated_at: 2025-01-27T14:35:12.356Z
+updated_at: 2025-01-27T14:49:07.582Z
 ---
 
 # MANTRA DAO (OM)
-The [MANTRA DAO token](https://moralis.com/chain/ethereum/token/price/mantra-dao) is trading live on the ethereum blockchain.
+The [MANTRA DAO token](https://moralis.com/chain/bsc/token/price/mantra-dao) is trading live on the bsc blockchain.
 
 ## Links
-- Price and chart: https://moralis.com/chain/ethereum/token/price/mantra-dao
+- Price and chart: https://moralis.com/chain/bsc/token/price/mantra-dao
 
 ## Market Data
-- Current Price: $4.648325276159857
+- Current Price: $4.661480617057487
 - Market Cap: $N/A
-- 24h Volume: $3111375.122186515
+- 24h Volume: $844924.281798773

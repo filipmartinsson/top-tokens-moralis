@@ -3,7 +3,7 @@ title: Cosmos Token
 symbol: ATOM
 categories: Interoperability
 contract_address: undefined
-updated_at: 2025-01-27T14:35:12.253Z
+updated_at: 2025-01-27T14:49:09.600Z
 ---
 
 # Cosmos Token (ATOM)
@@ -13,6 +13,6 @@ The [Cosmos Token token](https://moralis.com/chain/bsc/token/price/cosmos-token)
 - Price and chart: https://moralis.com/chain/bsc/token/price/cosmos-token
 
 ## Market Data
-- Current Price: $5.739722273902469
+- Current Price: $5.800984700471416
 - Market Cap: $N/A
-- 24h Volume: $135957.61742753498
+- 24h Volume: $136003.35623978998
